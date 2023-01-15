@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int r,y;
+    float x;
+    r=5;
+    y=r^2;
+    x=3.14 y;
+    printf("area of circle whodse radius %d cm=%f",r,x);
+    return 0;
+}

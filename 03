@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{ 
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    a>0 printf("number is +ve");
+    a<0 printf("number is -ve");
+    a=0 printf("number is equal to zero");
+    return 0;
+}    
