@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int i,size,a[20],b[20];
+    printf("\n enter the array size\n");
+    scanf("%d",&size);
+    printf("\n enter the array elements \n");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<size;i++)
+    {
+        b[i]=a[i];
+    }
+    printf("\n elements of second array are:\n");
+    for(i=0;i,size;i++)
+    {
+        printf("\n value inside array b[%d] = %d ",i,b[i]);
+    }
+    return 0;
+}

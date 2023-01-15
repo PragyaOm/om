@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    float a,b,c,d,e;
+    printf("enter marks of first student:\n");
+    scanf("%f",&a);
+    printf("enter the marks of second student;\n");
+    scanf("%f",&b);
+    printf("enter marks of third student:\n");
+    scanf("%f",&c);
+    printf("enter the marks of fourth student;\n");
+    scanf("%f"&d):
+    printf("enter the marks of fifth student:\n");
+    scanf("%f",&e);
+    printf("total marks of all five student:%g\n",(a+b+c+d+e));
+    printf("average marks of all five student:%g%g\n",(a+b+c+d+e)/5);
+    printf("percentage marks of all five student:%g",(a+b+c+d+e)*0.01);
+    
+    return 0;
+}

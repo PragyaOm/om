@@ -1,0 +1,27 @@
+#include<stdio.h>
+int mai()
+{
+   int array[10],pos,i,num,value;
+   printf("\n enter number of elements in an array\n ");
+   scanf("%d",&num);
+   printf("\n enter %d elements of an array \n",num);
+   for(i=0;i<num;i++)
+   {
+       scanf("%d",&aray[i]);
+   }
+   printf("\n enter the location of element you want to insert\n");
+   scanf("%d",&pos);
+   printf("\n enter the value of an array emenent to insert\n");
+   scanf("%d",&value);
+   for(i=num -1 ; i>=pos-1;i--)
+   {
+       array[i+1]=array[i];
+   }
+   array[pos-1]=value;
+   printf("\n final array after iserting an element is :\n");
+   for (i=0;i<=num;i++)
+   {
+       printf("%d\t",array[i]);
+   }
+   return 0;
+}
